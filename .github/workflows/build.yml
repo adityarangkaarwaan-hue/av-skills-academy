@@ -27,7 +27,7 @@ jobs:
           channel: 'stable'
 
       - name: Create Android Files
-        run: flutter create . --platforms=android
+        run: flutter create . --platforms=android --project-name=av_skills_academy
 
       - name: Install Dependencies
         run: flutter pub get
